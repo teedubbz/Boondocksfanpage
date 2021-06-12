@@ -4,7 +4,7 @@ h1, h2, h3, h4, h5, h6{
 }
 
 p{
-    color: rgb(255, 145, 0);
+    color: rgb(216, 79, 0);
     text-align: center;
 }
 
@@ -28,18 +28,65 @@ header{
   padding: 2px;
 }
 
-div{
-    text-align: center;
-    background-color: rgb(255, 136, 0);
-    color: rgb(251, 255, 0);
-    font-size: 30px;
-    padding: 10px;
-}
-
 html{
     background-color: rgb(0, 0, 0);
+    margin: 0 auto;
 }
 
-img{
-    align-items: center;
+.container {
+    width: 80%;
+    margin: 0 auto;
+    align-content: center;
+}
+
+.centerimg {
+    width:80%; 
+    height:400;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+
+header::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+
+
+nav ul {
+    margin: 0%;
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+ display: inline-block; 
+ margin-left: 70px;  
+ padding-top: 23px;
+}
+
+nav a {
+   color: rgb(243, 138, 0); 
+   text-decoration: none;
+   text-transform: uppercase;
+   font-size: 16px;
+}
+
+nav :hover {
+    color: rgb(255, 0, 0);
+}
+
+nav a::before {
+content '';  
+display: block;
+height: 5px;
+width: 100%;
+background-color: chocolate;
+}
+
+.wrapper {
+    width: 100%;
 }
