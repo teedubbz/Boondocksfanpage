@@ -41,7 +41,7 @@ html{
 
 .centerimg {
     width:80%; 
-    height:400;
+    height: 400;
     margin-left: auto;
     margin-right: auto;
     display: block;
@@ -53,8 +53,6 @@ header::after {
     display: table;
     clear: both;
 }
-
-
 
 nav ul {
     margin: 0%;
@@ -90,3 +88,13 @@ background-color: chocolate;
 .wrapper {
     width: 100%;
 }
+
+
+
+
+
+
+
+
+
+
