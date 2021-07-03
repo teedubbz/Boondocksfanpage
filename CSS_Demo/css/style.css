@@ -89,6 +89,18 @@ background-color: chocolate;
     width: 100%;
 }
 
+.row {
+  float: right;
+    width: 50%;
+  }
+
+.column {
+    border-color: chocolate;
+    border-style: dotted;
+    margin: auto;
+    float: unset;
+    width: 50%;
+  } 
 
 
 
