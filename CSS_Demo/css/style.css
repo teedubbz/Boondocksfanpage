@@ -77,13 +77,6 @@ nav :hover {
     color: rgb(255, 0, 0);
 }
 
-nav a::before {
-content '';  
-display: block;
-height: 5px;
-width: 100%;
-background-color: chocolate;
-}
 
 .wrapper {
     width: 100%;
