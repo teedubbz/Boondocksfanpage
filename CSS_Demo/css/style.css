@@ -51,9 +51,11 @@ body {
 }
 
 #menuToggle a {
- text-decoration: none;
+ text-decoration: wavy;
   color: #000000;
   transition: color 0.3s ease;
+  font-size: xx-large;
+  font-style: oblique;
 }
 
 #menuToggle a:hover{
@@ -117,7 +119,7 @@ body {
   margin: -100px 0 0 -50px;
   padding: 50px;
   padding-top: 125px;
-  background: #da6900;
+  background: #884302;
   list-style-type: none;
   -webkit-font-smoothing: antialiased;
   transform-origin: 0% 0%;
