@@ -18,25 +18,14 @@ p{
     text-align: center;
 }
 
-header{
-  text-align: center;
-  color: rgb(212, 149, 31);
-  background-color: rgb(0, 0, 0);
-  padding: 2px;
-}
+
 
 html{
     background-color: rgb(0, 0, 0);
     margin: 0 auto;
 }
 
-body {
-    margin: 0;
-    padding: 0;
-    background: #000000;
-    color: #ca370a;
-    font-family: Arial, Helvetica, sans-serif;
-}
+
 
 #menutoggle {
     display: block;
@@ -145,20 +134,74 @@ body {
     display: block;
 }
 
+.flexbox-container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.flexbox-item{
+  width: 200px;
+  margin: 10px;
+  border: 3px solid #333;
+  background-color: #dfdfdf;
+}
+
+.flexbox-item-1{
+  min-height: 200px;
+  flex-grow: 4;
+  flex-basis: 0;
+  
+}
+
+.flexbox-item-2{
+  min-height: 300px;
+  flex-grow: 14;
+}
+
+.flexbox-item-3{
+  min-height: 200px;
+  flex-grow: 4;
+}
+
+.flexbox-item-4{
+  min-height: 200px;
+  flex-grow: 4;
+}
+
+.flexbox-item-5{
+  min-height: 200px;
+  flex-grow: 4;
+}
+
+.flexbox-item-6{
+  min-height: 200px;
+  flex-grow: 4;
+}
+
+.flexbox-item-7{
+  min-height: 200px;
+  flex-grow: 4;
+}
+
+.flexbox-item-8{
+  min-height: 200px;
+  flex-grow: 4;
+}
+
+.flexbox-item-9{
+  min-height: 200px;
+  flex-grow: 4;
+}
+
+.flexbox-item-10{
+  min-height: 200px;
+  flex-grow: 1;
+}
 
 
-.row {
-  float: left;
-    width: 50%;
-  }
 
-.column {
-    border-color: chocolate;
-    border-style: dotted;
-    margin: auto;
-    float: unset;
-    width: 50%;
-  } 
 
 
 
