@@ -103,11 +103,13 @@ html{
 }
 
 #menu{
+  flex-wrap: wrap;
   position: absolute;
   width: 300px;
   margin: -100px 0 0 -50px;
   padding: 50px;
   padding-top: 125px;
+  padding-bottom: 1350px;
   background: #884302;
   list-style-type: none;
   -webkit-font-smoothing: antialiased;
@@ -117,6 +119,7 @@ html{
 }
 
 #menu li{
+  flex-wrap: wrap;
   padding: 10px 0;
   font-size: 22px;
 }
@@ -125,6 +128,9 @@ html{
   transform: none;
 }
 
+.email{
+flex-direction: column-reverse;
+}
 
 .centerimg {
     width:75.4%; 
@@ -142,63 +148,36 @@ html{
 }
 
 .flexbox-item{
-  width: 200px;
   margin: 10px;
   border: 3px solid #333;
   background-color: #dfdfdf;
-}
+  }
 
 .flexbox-item-1{
-  min-height: 200px;
   flex-grow: 4;
-  flex-basis: 0;
-  
-}
+  background-size: contain;
+  }
 
 .flexbox-item-2{
-  min-height: 300px;
-  flex-grow: 14;
+  min-height: 200px;
+  flex-grow: 2;
 }
 
 .flexbox-item-3{
   min-height: 200px;
-  flex-grow: 4;
+  flex-grow: 2;
 }
 
 .flexbox-item-4{
   min-height: 200px;
-  flex-grow: 4;
+  flex-grow: 2;
 }
 
 .flexbox-item-5{
   min-height: 200px;
-  flex-grow: 4;
+  flex-grow: 2;
 }
 
-.flexbox-item-6{
-  min-height: 200px;
-  flex-grow: 4;
-}
-
-.flexbox-item-7{
-  min-height: 200px;
-  flex-grow: 4;
-}
-
-.flexbox-item-8{
-  min-height: 200px;
-  flex-grow: 4;
-}
-
-.flexbox-item-9{
-  min-height: 200px;
-  flex-grow: 4;
-}
-
-.flexbox-item-10{
-  min-height: 200px;
-  flex-grow: 1;
-}
 
 
 
